@@ -1,0 +1,51 @@
+GET http://localhost:8000/api/questions/
+
+#####
+
+GET http://localhost:8000/api/questions/3
+
+#####
+
+POST http://localhost:8000/api/question/
+Content-Type: application/json
+
+{
+    "title": "Battle of the Ardennes was the last major German offensive on the Western Front during World War II.",
+    "answers_count": 2,
+    "answers": [
+        {
+            "title": "True",
+            "status": true
+        },
+        {
+            "title": "False",
+            "status": false
+        }
+    ]
+}
+
+#####
+PUT http://localhost:8000/api/question/61b0b8d256fde9723daf7ce6
+Content-Type: application/json
+
+{
+    "title": "1875 m. prancūzas Leco de Boisbodranas atrado naują cheminį elementą, kuriam davė Indžio pavadinimą. Toks pavadinimas pasirinktas dėl to, kad šio elemento spalvų spektre yra tam tikros spalvos. Kokia tai spalva?",
+    "answers_count": 3,
+    "answers": [
+        {
+            "title": "Mėlyna",
+            "status": true
+        },
+        {
+            "title": "Žalia",
+            "status": false
+        },
+        {
+            "title": "Violetinė",
+            "status": false
+        }
+    ]
+}
+
+#####
+DELETE http://localhost:8000/api/question/61ba701baa00228b1647a699

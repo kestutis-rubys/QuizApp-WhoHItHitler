@@ -1,0 +1,13 @@
+.class-main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #dddce3;
+}
+
+.class-main-container .class-main-container__image {
+  height: auto;
+  width: 300px;
+}

@@ -1,0 +1,37 @@
+.class-main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #dddce3;
+}
+
+.class-main-container .class-main-container__main-image {
+  height: auto;
+  width: 300px;
+}
+
+.class-main-container .class-main-container__main-title {
+  font-size: 32px;
+  margin: 0;
+}
+
+.class-main-container .class-main-container__sub-title {
+  margin: 0;
+  font-size: 20px;
+}
+
+.class-main-container .class-main-container__note {
+  font-size: 14px;
+}
+
+.class-main-container .class-main-container__button {
+  background: #fff;
+  border: 0;
+}
+
+.class-main-container .class-main-container__button:hover {
+  border: 0;
+  background: none;
+}
